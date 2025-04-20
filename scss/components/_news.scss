@@ -1,0 +1,115 @@
+.world-news {
+  .container {
+  }
+  margin-bottom: 10rem;
+}
+.world-news__title {
+  color: #000;
+  font-family: Rubik;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+.world-news-and-lates-news__wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.world-news__container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.world-news__card {
+  padding: 2rem;
+  background-color: $primary-bg;
+  border-radius: 15px;
+  display: flex;
+  gap: 15px;
+
+  &:hover .world-news__card__title {
+    color: $primary-color;
+  }
+}
+.world-news__card__image {
+  border-radius: 10px;
+}
+.world-news__card__title {
+  max-width: 535px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 130% */
+  margin-bottom: 1rem;
+}
+.world-news__card__desc {
+  margin-bottom: 2rem;
+  max-width: 535px;
+}
+.see-more-btn {
+  background-color: $primary-bg;
+  color: #000;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
+
+.latest-news {
+}
+.latest-news__container {
+  padding: 2rem;
+  background-color: $primary-bg;
+  border-radius: 15px;
+}
+.latest-news__title {
+  color: #000;
+  font-family: Rubik;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.latest-news__item {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d2d2d2;
+  cursor: pointer;
+  &:hover .latest-news__item__title {
+    color: $primary-color;
+  }
+}
+.latest-news__item__title {
+  max-width: 356px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+.latest-news__author {
+  color: #5e5f61;
+  font-family: Rubik;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.advertsiting {
+  margin-top: 1rem;
+}
+.advertsiting__image {
+  border-radius: 15px;
+}

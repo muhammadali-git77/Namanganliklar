@@ -1,0 +1,69 @@
+.login {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login__logo {
+  margin-bottom: 5rem;
+}
+.login__form {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.login__input {
+  width: 100%;
+  padding: 2rem 1.7rem;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+
+  &:focus{
+    outline-color: $primary-color;
+  }
+}
+.login__btn {
+  width: 100%;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  background-color: $primary-color;
+}
+
+.google-with {
+  margin-top: 7rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.google-with__icon {
+}
+.google-with__title {
+  color: #000;
+  font-family: Rubik;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2rem;
+}
+.login__desc{
+  margin-top: 1.5rem;
+  
+  a{
+    color: $primary-color;
+  }
+}
